@@ -39,7 +39,7 @@ if 'powers' not in st.session_state:
 if 'game_started' not in st.session_state:
     st.session_state.game_started = False
 
-st.title("Matemágica, o Adivinhador de Números!")
+st.title("Matemágica, o adivinhador de números!")
 
 if not st.session_state.game_started:
     st.write("Instruções:")
